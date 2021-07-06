@@ -8,3 +8,7 @@ type JWTPayload struct {
 	Exp int
 	Uid string
 }
+
+func IsValidJWT() bool {
+	return true
+}
